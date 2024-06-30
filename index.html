@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Restaurant Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="nav__header">
+      <div class="nav__logo">
+        <img src="assets/logo.png" alt="Logo">
+      </div>
+      <div id="menu-btn">
+        <i class="ri-menu-line"></i>
+      </div>
+    </div>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#reservation">Reservation</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="header" id="home">
+    <div class="overlay">
+      <div class="header__container">
+        <div class="header__content">
+          <h2>Welcome to Our Restaurant</h2>
+          <h1>Delicious Food <span>Everyday</span></h1>
+        </div>
+        <div class="header__image">
+          <img src="assets/header-image.png" alt="Header Image">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Login Form -->
+  <div class="overlay" id="login-overlay">
+    <div class="container">
+      <h2>Login</h2>
+      <form id="login-form">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Login</button>
+      </form>
+      <p>Don't have an account? <a href="#" id="open-registration">Register here</a></p>
+    </div>
+  </div>
+
+  <!-- Registration Form -->
+  <div class="overlay" id="registration-overlay">
+    <div class="container">
+      <h2>Register</h2>
+      <form id="registration-form">
+        <label for="new-username">Username</label>
+        <input type="text" id="new-username" name="new-username" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="new-password">Password</label>
+        <input type="password" id="new-password" name="new-password" required>
+
+        <button type="submit">Register</button>
+      </form>
+      <p>Already have an account? <a href="#" id="open-login">Login here</a></p>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Sections of your website -->
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="footer__content">
+      <!-- Footer content -->
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="script.js"></script>
+</body>
+</html>
